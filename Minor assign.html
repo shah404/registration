@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-top: 0;
+        }
+        body{
+            background:skyblue;
+        }
+       input{
+            margin-left:20px ;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <p>Enter your detail below</p>
+    <ul>
+        <li><input type="email" name="email_id" style="margin-bottom:15px;" required placeholder="your_email@gmail.com"></li>
+        <li><input type="password" name="password" required placeholder="password" ></li></ul>
+    <p><b>!Type a complex password with 8-20 charactors.</b></p>
+    <ul>
+    <li><input type="number" name="phone_number" required placeholder="+20 Phone number"></li>
+    </ul>
+    <hr>
+    <h4>Enter your profession:</h4>
+    <ul>
+        <li><input type="radio" name="profession" value="Student">Student <input type="radio" name="profession" value="teacher">Teacher <input type="radio" name="profession" value="developer">Deceloper</li></ul>
+    <span style="margin-right: 3px;">Choose the stage if you are (student)</span><select name="dropdown" id="dropdown" style="padding: 0 10px 0 0;">
+        <option value="first primary">first primary</option>
+        <option value="secondry">secondry</option>
+        <option value="third stage">third stage</option>
+    </select></ul>
+    <hr>
+    <ul>
+        <li>Enter your Birth date. <input type="date" name="birth_date"></li>
+    </ul><hr>
+    <ul><li>
+<input type="text" name="notes" required placeholder="Any notes">
+    </li></ul>
+    <hr>
+    <input type="submit" style="margin-right: 5px;"><input type="reset">
+</body>
+</html>
